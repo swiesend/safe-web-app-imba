@@ -2,6 +2,8 @@
 
 A small TODO-app with CRUD capabilities for testing out [Imba](http://imba.io) for the [SAFE Network](https://safenetwork.tech) from [Maidsafe](https://maidsafe.net).
 
+![Safe Browser - TODO App with Imba](img/safe-browser-example.png)
+
 ## Getting started
 
 ```bash
