@@ -1,18 +1,22 @@
 {
-  "name": "hello-world-imba",
-  "description": "Imba TODO-App with SAFE(CRUD)",
+  "name": "safe-web-app-imba",
+  "description": "A CRUD example for the SAFE Network with Imba",
   "keywords": [
-    "imba", "SAFE", "network", "maidsafe", "CRUD"
+    "imba",
+    "SAFE",
+    "network",
+    "maidsafe",
+    "CRUD"
   ],
   "author": "Sebastian Wiesendahl",
-  "bugs": "https://github.com/swiesend/safe_web_app_imba/issues",
+  "bugs": "https://github.com/swiesend/safe-web-app-imba/issues",
   "version": "1.0.0",
   "engines": {
     "node": ">=6.0.0"
   },
   "scripts": {
     "start": "imba src/server.imba",
-    "dev":   "webpack-dev-server --content-base dist/",
+    "dev": "webpack-dev-server --content-base dist/",
     "build": "webpack",
     "watch": "webpack --watch --progress --colors --display-modules"
   },
@@ -21,7 +25,7 @@
   "homepage": "http://imba.io",
   "repository": {
     "type": "git",
-    "url": "git://github.com/swiesend/safe_web_app_imba.git"
+    "url": "git://github.com/swiesend/safe-web-app-imba.git"
   },
   "license": "MIT",
   "dependencies": {
