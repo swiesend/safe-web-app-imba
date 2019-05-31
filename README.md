@@ -44,3 +44,14 @@ npm run dev
 Open in the Safe Browser:
 
 http://localhost:8080/
+
+## Development
+
+Check out the [SAFE Dev Forum](https://forum.safedev.org) to come in contact with other community members:
+
+* [imba - web apps](https://forum.safedev.org/t/imba-web-apps/2504)
+* [Svelte Web component framework](https://forum.safedev.org/t/svelte-web-component-framework/2483)
+
+And check the Tutorials for app development for the SAFE Network:
+
+https://hub.safedev.org/docs/
