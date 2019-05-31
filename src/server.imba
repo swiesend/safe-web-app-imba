@@ -11,7 +11,7 @@ server.get '/' do |req,res|
 			<link rel="stylesheet" href="/dist/index.css" media="screen">
 		<body>
 			<script src="/client.js">
-	
+
 	return res.send html.toString
 
 var port = process:env.PORT or 8080

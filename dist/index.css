@@ -2,7 +2,7 @@ html,body {
     width: 100%;
     height: 100%;
     margin: 0px;
-    font-family: Arial;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 body {
@@ -11,14 +11,6 @@ body {
     align-items: stretch;
     justify-content: center;
     flex-direction: column;
-    background: whitesmoke;
-    padding: 30px;
-}
-
-:focus { outline: none !important; }
-
-.App {
-    background: white;
 }
 
 .vbox {
@@ -28,6 +20,14 @@ body {
     align-items: stretch;
 }
 
+.hbox {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+:focus { outline: none !important; }
 
 body,div,form,header,footer,section,input,button,nav,aside,article {
     box-sizing: border-box;
@@ -67,28 +67,38 @@ button:hover {
     background: #3a8eef;
 }
 
-header,footer {
+header,.header,
+.footer,footer {
     flex: 0 0 auto;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     padding: 10px 6px;
-    background: #e8e8e8;
+    background: whitesmoke;
 }
 
-ul {
+ul,.list {
     list-style: none inside none;
     margin: 0;
     padding: 0;
     padding: 10px;
 }
 
-li {
+li,.list > * {
     padding: 8px 12px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
     border-bottom: 1px solid whitesmoke;
+}
+
+.done {
+    text-decoration: line-through;
+    font-style: italic;
+}
+
+.hidden {
+    display: none;
 }
